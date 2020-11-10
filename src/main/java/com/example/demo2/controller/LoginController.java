@@ -11,6 +11,8 @@ public class LoginController {
     @ResponseBody
     public String loginMessage(){
         System.out.println("Firebox");
-        return  "hello World";
+        var counter  = 0;
+            counter += 1;
+        return  "The server has been called " + counter + " time(S)";
     }
 }
